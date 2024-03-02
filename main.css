@@ -1,0 +1,60 @@
+/*Global Styles*/
+body {
+    background-color: #A2A2A2;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    padding: 60px 80px;
+}
+
+/*Navbar Styles*/
+.navbar{
+    height: 80px;
+    width: full;
+    color: white;
+    font-size: 18px;
+}
+
+.navbarContainer{
+    background-color: #004E95;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.navbarItems{
+    list-style-type: none;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbarLinks{
+    color: white;
+    padding: 20px;
+}
+
+.navbarLinks:visted{
+    color: white;
+}
+
+/*Header Component Styles*/
+.header{
+    display: flex
+}
+
+.headerText{
+    padding: 0 100px 50px 0;
+}
+
+/*Skills Section Styles*/
+.skills{
+    background-color: #004E95;
+    color: white;
+    text-align: center;
+}
