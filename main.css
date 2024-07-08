@@ -21,7 +21,7 @@ h3{
 }
 p{
     font-size: 18px;
-    }
+}
 
 /*Navbar Styles*/
 .navbarContainer{
@@ -138,7 +138,9 @@ input, textarea{
 }
 
 /*Footer/Copyright Styles*/
-.footer{
-    background: black;
+footer{
+    background-color: black;
     color:white;
+    padding: 3px 120px;
+
 }
