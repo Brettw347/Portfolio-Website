@@ -6,15 +6,16 @@ body {
 }
 
 .wrapper{
-    padding: 40px;
+    padding: 120px;
 }
-
-
 h1{
     font-size: 32px;
 }
 h2{
     font-size: 28px;
+}
+h3{
+    font-size: 22px;
 }
 p{
     font-size: 18px;
@@ -28,7 +29,6 @@ p{
     align-items: center;
     white-space: nowrap;
 }
-
 .navbarItems{
     list-style-type: none;
     float: left;
@@ -37,11 +37,12 @@ p{
     text-decoration: none;
     margin: 0;
 }
-
 .navbar{
     font-size: 18px;
     overflow: hidden;
     background-color: #004E95;
+    position: fixed;
+    width: 100%;
 }
 
 .navbarLinks{
@@ -56,22 +57,37 @@ p{
 /*Header Component Styles*/
 .header{
     display: flex;
-    flex-direction: column;
-}
-.image{
-    display: block;
-    margin: auto;
-    height: auto;
-    width: 300px;
+    justify-content: center;
+    gap: 25%;
 }
 .headerText{
     text-align: center;
-    padding: 0;
+    margin: 20px;
 }
 
 /*My Skills Styles*/
-.skills{
-    background: white;
+#skills{
+    color: white;
+    background: #004E95;
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+.skillText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skillItems{
+    list-style-type: none;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50%;
 }
