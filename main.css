@@ -7,6 +7,8 @@ body {
 
 .wrapper{
     padding: 120px;
+    box-shadow: 0 4px 4px -1px rgba(0,0,0,0.25);
+
 }
 h1{
     font-size: 32px;
@@ -43,8 +45,8 @@ p{
     background-color: #004E95;
     position: fixed;
     width: 100%;
+    box-shadow: 0 4px 4px -1px rgba(0,0,0,0.25);
 }
-
 .navbarLinks{
     color: white;
     padding: 20px;
@@ -91,3 +93,28 @@ p{
     justify-content: center;
     gap: 50%;
 }
+
+/*My Experience Styles*/
+
+/*My Projects Styles*/
+#projects{
+    color: white;
+    background: #004E95;
+    text-align: center;
+}
+.projectContent{
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
+}
+.projectButton{
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*Contact Me Styles*/
