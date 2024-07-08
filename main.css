@@ -1,6 +1,6 @@
 /*Global Styles*/
 body {
-    background-color: grey;
+    background-color: #3F3F3F;
     margin: 0;
     padding: 0;
 }
@@ -61,6 +61,7 @@ p{
     display: flex;
     justify-content: center;
     gap: 25%;
+    color: white;
 }
 .headerText{
     text-align: center;
@@ -95,6 +96,9 @@ p{
 }
 
 /*My Experience Styles*/
+#experience{
+    color: white;
+}
 
 /*My Projects Styles*/
 #projects{
@@ -118,3 +122,23 @@ p{
 }
 
 /*Contact Me Styles*/
+#contact{
+    color: white;
+    text-align: center;
+}
+form{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+input, textarea{
+    padding: 15px 32px;
+    width: 50%;
+    margin: 15px;
+}
+
+/*Footer/Copyright Styles*/
+.footer{
+    background: black;
+    color:white;
+}
