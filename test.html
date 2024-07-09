@@ -33,18 +33,86 @@
     </header>
     <main>
         <!-- About me component-->
-        <div class="wrapper" id="aboutMe">
-            <div class="headerText">
+        <div id="about-me" class="wrapper">
+            <div>
                 <h1>Hi I'm Brett</h1>
                 <p>I'm an aspiring Full Stack Developer, eager to meet your web-related needs.</p>
             </div>
-            <div class = "headerImage">
+            <div>
                 <img src="portrait.jpg" width = "300px">
             </div>
         </div>
-
+        <!-- My Skills Component-->
+        <div class="wrapper" id="skills">
+            <div>
+                <h2>My Skills</h2>    
+            </div>
+            <div>
+                <div>
+                    <h3>Languages</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">HTML</li>
+                        <li class="skill-item">CSS</li>
+                        <li class="skill-item">JavaScript</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Other Technologies</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">VS Code</li>
+                        <li class="skill-item">GitHub</li>
+                        <li class="skill-item">MS Office</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--My Experience Component-->
+        <div class="wrapper" id="experience">
+            <div>
+                <h2>My Experience</h2>  
+                <p>I had an internship at NRG Edge, where I had my first experience working in the technology industry. Here, I learned Tailwind CSS and basic design principles used in the creation of the OnboardDX website.</p>  
+            </div>
+        </div>
+         <!--My Education Component-->
+         <div class="wrapper" id="education">
+            <div>
+                <h2>My Education</h2>
+                <div>
+                    <p>In May 2024, I graduated from Cairn University with a Bachelors of Science in Computer Science Degree.</p>
+                </div>
+            </div>
+        </div>
+        <!--My Projects Component-->
+        <div class="wrapper" id="projects">
+            <div>
+                <h1>My Projects</h1>
+                <div>
+                    <div>
+                        <div>
+                            <img src="ZLingo.png"  width="200px" height="200px">
+                            <h3>ZLingo</h3>
+                            <p>Using what we've learned in our Programming Languages class, my team and I created a programming languaged based on JavaScript that uses Gen-Z slang.</p>
+                            <button type="button">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--Contact Me Component-->
+         <div class="wrapper" id="contact">
+            <div>
+                <h2>Contact Me</h2>    
+            </div>
+            <form>
+                <input type="text" id="name" name="username" placeholder="Your Name">
+                <input type="tel" id="phoneNum" name="phoneNum" placeholder="Your Phone Number">
+                <input type="email" id="email" name="email" placeholder="Your Email Address">
+                <textarea id="comments" name="comments" placeholder="Comments..."></textarea>
+                <button type="button">Submit</button>
+            </form>
+        </div>
     </main>
-    <footer>
+    <footer class="footer-wrapper">
         <p>Brett Williams</p>
     </footer>
 </body>

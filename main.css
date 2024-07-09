@@ -88,12 +88,6 @@ p{
     flex-direction: column;
     padding-left: 0;
 }
-.test{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 50%;
-}
 
 /*My Experience Styles*/
 #experience{

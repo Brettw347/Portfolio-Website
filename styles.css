@@ -1,14 +1,21 @@
-*{
-    background-color: #3f3f3f;
+body{
+    background: #004E95;
+    color: white;
+    padding: 0;
+    margin: 0;
 }
 
+/*Mobile Screen*/
 @media screen and (max-width: 600px){
     .wrapper{
         padding: 40px;
-        box-shadow: 0 4px 4px -1px rgba(0,0,0,0.25);
+    }
+    .footer-wrapper{
+        padding: 10px 40px;
     }
     h1{
         font-size: 32px;
+        padding-bottom: 16px;
     }
     h2{
         font-size: 28px;
@@ -23,7 +30,43 @@
         font-size: 16px;
     }
 
+    img{
+        display: none;
+    }
+
+    button{
+        border: 2px solid #3e3e3e;
+        color: white;
+        background-color: grey;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    form{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    input, textarea{
+        padding: 15px 32px;
+        width: 50%;
+        margin: 15px;
+    }
+
+    footer{
+        background-color: black;
+
+    }
+
     /*Navbar*/
+    .navbar{
+        overflow: hidden;
+        background-color: #004E95;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 4px 0 -1px rgba(0,0,0,0.25);
+    }
     .navbarContainer{
         background-color: #004E95;
         display: flex;
@@ -40,20 +83,493 @@
         text-decoration: none;
         margin: 0;
     }
+    .navbarLinks{
+        color: white;
+    }
+    .navbarLinks:visted{
+        color: white;
+    }
+
+    /*About Me*/
+    #about-me{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    /*My Skills*/
+    #skills{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+    .skill-list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 0;
+    }
+    .skill-item{
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    /*My Experience*/
+    #experience{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*My Education*/
+    #education{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+
+    /*My Projects*/
+    #projects{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*Contact Me*/
+    #contact{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+
+
+}
+
+/*Tablet Screen*/
+@media screen and (min-width: 768px){
+    .wrapper{
+        padding: 40px;
+    }
+    .footer-wrapper{
+        padding: 10px 40px;
+    }
+    h1{
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 18px;
+    }
+    li{
+        font-size: 16px;
+    }
+
+    img{
+        display: none;
+    }
+
+    button{
+        border: 2px solid #3e3e3e;
+        color: white;
+        background-color: grey;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    form{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    input, textarea{
+        padding: 15px 32px;
+        width: 50%;
+        margin: 15px;
+    }
+
+    footer{
+        background-color: black;
+
+    }
+
+    /*Navbar*/
     .navbar{
         overflow: hidden;
         background-color: #004E95;
         position: fixed;
         width: 100%;
-        box-shadow: 0 4px 4px -1px rgba(0,0,0,0.25);
+        box-shadow: 0 4px 0 -1px rgba(0,0,0,0.25);
+    }
+    .navbarContainer{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .navbarItems{
+        list-style-type: none;
+        float: left;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        margin: 0;
     }
     .navbarLinks{
         color: white;
-
     }
-    
     .navbarLinks:visted{
         color: white;
     }
+
+    /*About Me*/
+    #about-me{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    /*My Skills*/
+    #skills{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+    .skill-list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 0;
+    }
+    .skill-item{
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    /*My Experience*/
+    #experience{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*My Education*/
+    #education{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+
+    /*My Projects*/
+    #projects{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*Contact Me*/
+    #contact{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+
+
     
+}
+
+/*Desktop Screen*/
+@media screen and (min-width: 992px){
+    .wrapper{
+        padding: 40px;
+    }
+    .footer-wrapper{
+        padding: 10px 40px;
+    }
+    h1{
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 18px;
+    }
+    li{
+        font-size: 16px;
+    }
+
+    img{
+        display: none;
+    }
+
+    button{
+        border: 2px solid #3e3e3e;
+        color: white;
+        background-color: grey;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    form{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    input, textarea{
+        padding: 15px 32px;
+        width: 50%;
+        margin: 15px;
+    }
+
+    footer{
+        background-color: black;
+
+    }
+
+    /*Navbar*/
+    .navbar{
+        overflow: hidden;
+        background-color: #004E95;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 4px 0 -1px rgba(0,0,0,0.25);
+    }
+    .navbarContainer{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .navbarItems{
+        list-style-type: none;
+        float: left;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        margin: 0;
+    }
+    .navbarLinks{
+        color: white;
+    }
+    .navbarLinks:visted{
+        color: white;
+    }
+
+    /*About Me*/
+    #about-me{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    /*My Skills*/
+    #skills{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+    .skill-list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 0;
+    }
+    .skill-item{
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    /*My Experience*/
+    #experience{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*My Education*/
+    #education{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+
+    /*My Projects*/
+    #projects{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*Contact Me*/
+    #contact{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+
+
+}
+
+/*Lg Desktop Screen*/
+@media screen and (min-width: 1200px){
+    .wrapper{
+        padding: 40px;
+    }
+    .footer-wrapper{
+        padding: 10px 40px;
+    }
+    h1{
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 18px;
+    }
+    li{
+        font-size: 16px;
+    }
+
+    img{
+        display: none;
+    }
+
+    button{
+        border: 2px solid #3e3e3e;
+        color: white;
+        background-color: grey;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    form{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    input, textarea{
+        padding: 15px 32px;
+        width: 50%;
+        margin: 15px;
+    }
+
+    footer{
+        background-color: black;
+
+    }
+
+    /*Navbar*/
+    .navbar{
+        overflow: hidden;
+        background-color: #004E95;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 4px 0 -1px rgba(0,0,0,0.25);
+    }
+    .navbarContainer{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .navbarItems{
+        list-style-type: none;
+        float: left;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        margin: 0;
+    }
+    .navbarLinks{
+        color: white;
+    }
+    .navbarLinks:visted{
+        color: white;
+    }
+
+    /*About Me*/
+    #about-me{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    /*My Skills*/
+    #skills{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+    .skill-list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 0;
+    }
+    .skill-item{
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    /*My Experience*/
+    #experience{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*My Education*/
+    #education{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+
+    /*My Projects*/
+    #projects{
+        background-color: #004E95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*Contact Me*/
+    #contact{
+        background-color:#3e3e3e;
+        text-align: center;
+    }
+
+
 }
