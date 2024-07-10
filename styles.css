@@ -106,6 +106,43 @@ body{
         background-color:#3e3e3e;
         text-align: center;
     }
+    .collapsible{
+        max-width: 500px;
+        margin: 1em 0;
+        font-size: 16px;
+    }
+    .collapsible-open .collapsible-wrapper {
+        grid-template-rows: 1fr;
+    }
+    .collapsible-open .collapsible-icon{
+        transform: rotate(-180deg);    
+    }
+    
+    .collapsible-title-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px;
+        user-select: none;
+        background-color:#2a2a2a;
+        color: white;
+        cursor: pointer;
+    }
+    .collapsible-icon{
+        transition: transform 0.3s;
+    }
+    .collapsible-content{
+        padding: 0 14px;
+        background-color:  #2a2a2a;
+        border-top: none;
+        overflow: hidden;
+    }
+    .collapsible-wrapper{
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 0.3s ease-out;
+    }
+
     .skill-list{
         list-style-type: none;
         display: flex;
@@ -273,23 +310,59 @@ body{
         padding-top: 60px;
     }
 
-    /*My Skills*/
-    #skills{
-        background-color:#3e3e3e;
-        text-align: center;
-    }
-    .skill-list{
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        padding-left: 0;
-    }
-    .skill-item{
-        padding-top: 6px;
-        padding-bottom: 6px;
-    }
+  /*My Skills*/
+  #skills{
+    background-color:#3e3e3e;
+    text-align: center;
+}
+.collapsible{
+    max-width: 500px;
+    margin: 1em 0;
+    font-size: 16px;
+}
+.collapsible-open .collapsible-wrapper {
+    grid-template-rows: 1fr;
+}
+.collapsible-open .collapsible-icon{
+    transform: rotate(-180deg);    
+}
 
+.collapsible-title-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    user-select: none;
+    background-color:#2a2a2a;
+    color: white;
+    cursor: pointer;
+}
+.collapsible-icon{
+    transition: transform 0.3s;
+}
+.collapsible-content{
+    padding: 0 14px;
+    background-color:  #2a2a2a;
+    border-top: none;
+    overflow: hidden;
+}
+.collapsible-wrapper{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease-out;
+}
+
+.skill-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 0;
+}
+.skill-item{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
     /*My Experience*/
     #experience{
         background-color: #004E95;
@@ -443,23 +516,59 @@ body{
         padding-top: 60px;
     }
 
-    /*My Skills*/
-    #skills{
-        background-color:#3e3e3e;
-        text-align: center;
-    }
-    .skill-list{
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        padding-left: 0;
-    }
-    .skill-item{
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
+ /*My Skills*/
+ #skills{
+    background-color:#3e3e3e;
+    text-align: center;
+}
+.collapsible{
+    max-width: 500px;
+    margin: 1em 0;
+    font-size: 16px;
+}
+.collapsible-open .collapsible-wrapper {
+    grid-template-rows: 1fr;
+}
+.collapsible-open .collapsible-icon{
+    transform: rotate(-180deg);    
+}
 
+.collapsible-title-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    user-select: none;
+    background-color:#2a2a2a;
+    color: white;
+    cursor: pointer;
+}
+.collapsible-icon{
+    transition: transform 0.3s;
+}
+.collapsible-content{
+    padding: 0 14px;
+    background-color:  #2a2a2a;
+    border-top: none;
+    overflow: hidden;
+}
+.collapsible-wrapper{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease-out;
+}
+
+.skill-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 0;
+}
+.skill-item{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
     /*My Experience*/
     #experience{
         background-color: #004E95;
@@ -614,23 +723,59 @@ body{
         padding-top: 60px;
     }
 
-    /*My Skills*/
-    #skills{
-        background-color:#3e3e3e;
-        text-align: center;
-    }
-    .skill-list{
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        padding-left: 0;
-    }
-    .skill-item{
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
+ /*My Skills*/
+ #skills{
+    background-color:#3e3e3e;
+    text-align: center;
+}
+.collapsible{
+    max-width: 500px;
+    margin: 1em 0;
+    font-size: 16px;
+}
+.collapsible-open .collapsible-wrapper {
+    grid-template-rows: 1fr;
+}
+.collapsible-open .collapsible-icon{
+    transform: rotate(-180deg);    
+}
 
+.collapsible-title-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    user-select: none;
+    background-color:#2a2a2a;
+    color: white;
+    cursor: pointer;
+}
+.collapsible-icon{
+    transition: transform 0.3s;
+}
+.collapsible-content{
+    padding: 0 14px;
+    background-color:  #2a2a2a;
+    border-top: none;
+    overflow: hidden;
+}
+.collapsible-wrapper{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease-out;
+}
+
+.skill-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 0;
+}
+.skill-item{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
     /*My Experience*/
     #experience{
         background-color: #004E95;

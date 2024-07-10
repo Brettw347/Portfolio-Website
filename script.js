@@ -69,3 +69,16 @@ inputs.forEach((input) => {
         validateInputs();
     });
 });
+
+// Collapsible menu Scripts
+document.body.addEventListener("click", (ev) => {
+    const isCollapsible = ev.target.closest(".collapsible-title-section");
+    const collapsible = ev.target.closest(".collapsible");
+
+    if(!isCollapsible) {
+        return;
+    }
+
+    collapsible.classList.toggle("collapsible-open");
+
+});
