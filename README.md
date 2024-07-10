@@ -1,8 +1,8 @@
 # Portfolio/Resume Website
 ## Overview
+The purpose of this project is showcase my skills in web development using HTML, CSS, and JavaScript, as well as my professional experience.
 
 ## Upcoming features:
-- Hamburger menu for mobile and tablet screen sizes
 - Designs & layouts for different screen sizes
 - Refined padding & margins
 - Custom Fonts

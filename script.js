@@ -82,3 +82,17 @@ document.body.addEventListener("click", (ev) => {
     collapsible.classList.toggle("collapsible-open");
 
 });
+
+// Hamburger Menu
+const hamMenu = document.querySelector('.ham-icon');
+const navMenu = document.querySelector('.ham-nav-menu');
+
+hamMenu.addEventListener("click", () => {
+    hamMenu.classList.toggle("active");
+    navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-links").forEach(n => n.addEventListener("click", () =>{
+    hamMenu.classList.remove("active");
+    navMenu.classList.remove("active");
+}));
