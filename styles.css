@@ -316,9 +316,8 @@ body{
     text-align: center;
 }
 .collapsible{
-    max-width: 500px;
-    margin: 1em 0;
-    font-size: 16px;
+    display: inline-block;
+    width: 50%;
 }
 .collapsible-open .collapsible-wrapper {
     grid-template-rows: 1fr;
@@ -329,6 +328,7 @@ body{
 
 .collapsible-title-section{
     display: flex;
+    margin: auto;
     align-items: center;
     justify-content: center;
     padding: 14px;
@@ -522,9 +522,8 @@ body{
     text-align: center;
 }
 .collapsible{
-    max-width: 500px;
-    margin: 1em 0;
-    font-size: 16px;
+    display: inline-block;
+    width: 50%;
 }
 .collapsible-open .collapsible-wrapper {
     grid-template-rows: 1fr;
@@ -729,9 +728,8 @@ body{
     text-align: center;
 }
 .collapsible{
-    max-width: 500px;
-    margin: 1em 0;
-    font-size: 16px;
+    display: inline-block;
+    width: 50%;
 }
 .collapsible-open .collapsible-wrapper {
     grid-template-rows: 1fr;
