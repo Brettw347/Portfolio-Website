@@ -1,4 +1,4 @@
-# Portfolio/Resume Website
+# Resume Website
 ## Overview
 The purpose of this project is showcase my skills in web development using HTML, CSS, and JavaScript, as well as my professional experience.
 
