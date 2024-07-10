@@ -39,7 +39,7 @@
                 <p>I'm an aspiring Full Stack Developer, eager to meet your web-related needs.</p>
             </div>
             <div>
-                <img src="portrait.jpg" width = "300px">
+                <img src="portrait.jpg">
             </div>
         </div>
         <!-- My Skills Component-->
@@ -89,7 +89,7 @@
                 <div>
                     <div>
                         <div>
-                            <img src="ZLingo.png"  width="200px" height="200px">
+                            <img src="ZLingo.png">
                             <h3>ZLingo</h3>
                             <p>Using what we've learned in our Programming Languages class, my team and I created a programming languaged based on JavaScript that uses Gen-Z slang.</p>
                             <button type="button">View Project</button>
@@ -103,17 +103,35 @@
             <div>
                 <h2>Contact Me</h2>    
             </div>
-            <form>
-                <input type="text" id="name" name="username" placeholder="Your Name">
-                <input type="tel" id="phoneNum" name="phoneNum" placeholder="Your Phone Number">
-                <input type="email" id="email" name="email" placeholder="Your Email Address">
-                <textarea id="comments" name="comments" placeholder="Comments..."></textarea>
-                <button type="button">Submit</button>
-            </form>
+            <div class="contact-container">
+                <form>
+                    <div class="form-container">
+                        <input name="full-name" class="" placeholder="Full Name"/>
+                        <div class="error hidden">Please enter your full name.</div>
+                    </div>
+                    <div class="form-container">
+                        <input name="email" class="" placeholder="Email Address"/>
+                        <div class="error hidden">Please enter a valid email address.</div>
+                    </div>
+                    <div class="form-container">
+                        <input name="phone" class="" placeholder="Phone Number"/>
+                        <div class="error hidden">Please enter a valid phone number.</div>
+                    </div>
+                    <div class="form-container">
+                        <textarea name="message" class="" placeholder="What would you like to say? (64 Character minimum)"></textarea>
+                        <div class="error hidden">Please enter a message that is at least 64 characters long.</div>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form> 
+                <div class="confirm hidden">
+                    <p>Form submitted successfully!</p>
+                </div>   
+            </div>
         </div>
     </main>
     <footer class="footer-wrapper">
-        <p>Brett Williams</p>
+        <p class="footer-text">Brett Williams</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
