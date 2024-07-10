@@ -74,6 +74,7 @@ body{
         align-items: center;
         padding: 0 24px;
         position: fixed;
+        z-index: 10;
         background-color: #004E95;
         width: 100%;
     }
@@ -349,6 +350,9 @@ body{
         align-items: center;
         padding: 0 24px;
         position: fixed;
+        z-index: 10;
+        background-color: #004E95;
+        width: 100%;
     }
     .ham-nav-menu{
         display: flex;
