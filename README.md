@@ -9,3 +9,4 @@ The purpose of this project is showcase my skills in web development using HTML,
 - Information from 'Contact Me' form is sent/stored somewhere
 - 'My Experience' and 'My Education' combined into a single component
 - More dynamic/diverse backgrounds
+- Expanded 'My Skills' section
