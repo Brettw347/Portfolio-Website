@@ -34,7 +34,7 @@ body{
         display: none;
     }
 
-    button{
+    .btn{
         border: 2px solid #3e3e3e;
         color: white;
         background-color: grey;
@@ -155,10 +155,7 @@ body{
     .error{
         color: red;
     }
-    .submit-button {
-        padding: 10px;
-        background: none;
-    }
+
     .hidden{
         display: none;
     }
@@ -193,7 +190,7 @@ body{
         width: 250px;
     }
 
-    button{
+    .btn{
         border: 2px solid #3e3e3e;
         color: white;
         background-color: grey;
@@ -360,7 +357,7 @@ body{
         width: 250px;
     }
 
-    button{
+    .btn{
         border: 2px solid #3e3e3e;
         color: white;
         background-color: grey;
@@ -532,7 +529,7 @@ body{
         display: none;
     }
 
-    button{
+    .btn{
         border: 2px solid #3e3e3e;
         color: white;
         background-color: grey;

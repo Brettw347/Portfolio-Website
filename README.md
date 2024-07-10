@@ -4,6 +4,5 @@
 ## Upcoming features:
 - Refined padding & margins
 - Designs & layouts for different screen sizes
-- 'Contact Me' form functionality
-- Link to GitHub project in the 'My Projects' section
+- Information from 'Contact Me' form is sent/stored somewhere
 - Add Hamburger menu for mobile and tablet screen sizes

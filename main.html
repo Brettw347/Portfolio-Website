@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brett Williams Portfolio Website</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -22,9 +22,6 @@
                         <a href="#experience" class= "navbarLinks">My Experience</a>
                     </li>
                     <li class="navbarItems">
-                        <a href="#education" class="navbarLinks">My Education</a>
-                    </li>
-                    <li class="navbarItems">
                         <a href="#projects" class="navbarLinks">My Projects</a>
                     </li>
                     <li class="navbarItems">
@@ -36,13 +33,13 @@
     </header>
     <main>
         <!-- About me component-->
-        <div class="wrapper header" id="aboutMe">
-            <div class="headerText">
+        <div id="about-me" class="wrapper">
+            <div>
                 <h1>Hi I'm Brett</h1>
                 <p>I'm an aspiring Full Stack Developer, eager to meet your web-related needs.</p>
             </div>
-            <div class = "headerImage">
-                <img src="portrait.jpg" width = "300px">
+            <div>
+                <img src="portrait.jpg">
             </div>
         </div>
         <!-- My Skills Component-->
@@ -50,36 +47,36 @@
             <div>
                 <h2>My Skills</h2>    
             </div>
-            <div class="test">
-                <div class="skillText">
+            <div>
+                <div>
                     <h3>Languages</h3>
-                    <ul class="skillItems">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
+                    <ul class="skill-list">
+                        <li class="skill-item">HTML</li>
+                        <li class="skill-item">CSS</li>
+                        <li class="skill-item">JavaScript</li>
                     </ul>
                 </div>
-                <div class="skillText">
+                <div>
                     <h3>Other Technologies</h3>
-                    <ul class="skillItems">
-                        <li>VS Code</li>
-                        <li>GitHub</li>
-                        <li>MS Office</li>
+                    <ul class="skill-list">
+                        <li class="skill-item">VS Code</li>
+                        <li class="skill-item">GitHub</li>
+                        <li class="skill-item">MS Office</li>
                     </ul>
                 </div>
             </div>
         </div>
         <!--My Experience Component-->
         <div class="wrapper" id="experience">
-            <div class="headerText">
+            <div>
                 <h2>My Experience</h2>  
                 <p>I had an internship at NRG Edge, where I had my first experience working in the technology industry. Here, I learned Tailwind CSS and basic design principles used in the creation of the OnboardDX website.</p>  
             </div>
         </div>
-        <!--My Education Component-->
-        <div class="wrapper" id="education">
-            <div class="centeredText">
-                <h1>My Education</h1>
+         <!--My Education Component-->
+         <div class="wrapper" id="education">
+            <div>
+                <h2>My Education</h2>
                 <div>
                     <p>In May 2024, I graduated from Cairn University with a Bachelors of Science in Computer Science Degree.</p>
                 </div>
@@ -87,38 +84,56 @@
         </div>
         <!--My Projects Component-->
         <div class="wrapper" id="projects">
-            <div class="">
+            <div>
                 <h1>My Projects</h1>
                 <div>
-                    <div class="projectContent">
+                    <div>
                         <div>
-                            <img src="ZLingo.png"  width="200px" height="200px">
+                            <img src="ZLingo.png">
                             <h3>ZLingo</h3>
-                            <button type="button" class="projectButton">View Project</button>
-                        </div>
-                        <div>
                             <p>Using what we've learned in our Programming Languages class, my team and I created a programming languaged based on JavaScript that uses Gen-Z slang.</p>
+                            <a class="btn" href="https://github.com/Brettw347/ProgrammingLanguagesFinalProject-ZLingo">
+                                View Project
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Contact Me Component-->
-        <div class="wrapper" id="contact">
-            <div class="">
+         <!--Contact Me Component-->
+         <div class="wrapper" id="contact">
+            <div>
                 <h2>Contact Me</h2>    
             </div>
-            <form>
-                <input type="text" id="name" name="username" placeholder="Your Name">
-                <input type="tel" id="phoneNum" name="phoneNum" placeholder="Your Phone Number">
-                <input type="email" id="email" name="email" placeholder="Your Email Address">
-                <textarea id="comments" name="comments" placeholder="Comments..."></textarea>
-                <input type="submit" value="Submit">
-            </form>
+            <div class="contact-container">
+                <form>
+                    <div class="form-container">
+                        <input name="full-name" class="" placeholder="Full Name"/>
+                        <div class="error hidden">Please enter your full name.</div>
+                    </div>
+                    <div class="form-container">
+                        <input name="email" class="" placeholder="Email Address"/>
+                        <div class="error hidden">Please enter a valid email address.</div>
+                    </div>
+                    <div class="form-container">
+                        <input name="phone" class="" placeholder="Phone Number"/>
+                        <div class="error hidden">Please enter a valid phone number.</div>
+                    </div>
+                    <div class="form-container">
+                        <textarea name="message" class="" placeholder="What would you like to say? (64 Character minimum)"></textarea>
+                        <div class="error hidden">Please enter a message that is at least 64 characters long.</div>
+                    </div>
+                    <button type="submit" class="btn">Submit</button>
+                </form> 
+                <div class="confirm hidden">
+                    <p>Form submitted successfully!</p>
+                </div>   
+            </div>
         </div>
     </main>
-    <footer>
-        <p>Brett Williams</p>
+    <footer class="footer-wrapper">
+        <p class="footer-text">Brett Williams</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
