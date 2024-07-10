@@ -36,7 +36,7 @@ const validateInputs = () => {
     isFormValid = true;
     inputs.forEach(resetInput);
 
-    if (!nameInput.value) {
+    if (!nameInput.value || nameInput.value.length < 12) {
         isFormValid = false;
         invalidateInput(nameInput);
     }
