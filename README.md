@@ -2,7 +2,10 @@
 ## Overview
 
 ## Upcoming features:
-- Refined padding & margins
+- Collapsible menus for 'My Skills' section
+- Hamburger menu for mobile and tablet screen sizes
 - Designs & layouts for different screen sizes
+- Refined padding & margins
 - Information from 'Contact Me' form is sent/stored somewhere
-- Add Hamburger menu for mobile and tablet screen sizes
+- 'My Experience' and 'My Education' combined into a single component
+- More dynamic/diverse backgrounds
